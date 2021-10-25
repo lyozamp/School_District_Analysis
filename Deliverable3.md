@@ -22,9 +22,13 @@ The data was adjusted to use NaNs which recalculated the percentages for the pas
 
 ## How is the school summary affected?
 
+In the original analysis, the overall passing rate for Thomas High School was concerning to the school board as being too high at a rate of 91%. After removing the 9th grade students from the data and calculating based off of the 10th-12th grade students only the overall passing rate lowered to 65%. 
+
 ![image](https://github.com/lyozamp/School_District_Analysis/blob/main/images/School_summary.PNG)
 
 ## How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+
+In the original analysis, the school district was in disbelief that Thomas High School's performance put them in the ranking of 2nd in the district. After adjusting the 9th grade data to be removed, there was a drastic change in the schools ranking putting them from 8th from the bottom and moving their rank towards the middle of the ranking of all the schools.
 
 ![image](https://github.com/lyozamp/School_District_Analysis/blob/main/images/ThomasHighSchoolPerformance.PNG)
 
@@ -32,17 +36,27 @@ The data was adjusted to use NaNs which recalculated the percentages for the pas
 
 ## Math and reading scores by grade
 
+In the original analysis, the math average was 83.6% and the reading average was 83.7% but after replacing the 9th grade scores using NaN their percentage shows up as "nan" in the code which is why it isn't shown in the chart below. 
+
 ![image](https://github.com/lyozamp/School_District_Analysis/blob/main/images/MathReadingScoresByGrade.PNG)
 
 ## Scores by school spending
+
+Scores by school spending
+
+Excluding the ninth graders’ math and reading scores from Thomas High School’s data stayed nearly identical because they were nullified from the data.
 
 ![image](https://github.com/lyozamp/School_District_Analysis/blob/main/images/ScoresBySchoolSpending.PNG)
 
 ## Scores by school size
 
+The overall passing percentage did not change for the school size.
+
 ![image](https://github.com/lyozamp/School_District_Analysis/blob/main/images/ScoresBySchoolSize.PNG)
 
 ## Scores by school type
+
+Scores by school type were not altered at all.
 
 ![image](https://github.com/lyozamp/School_District_Analysis/blob/main/images/ScoresBySchoolType.PNG) 
 
